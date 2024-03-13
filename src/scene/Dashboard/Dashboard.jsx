@@ -69,7 +69,7 @@ const Dashboard=()=>{
             
           </div>
         </div>
-        <div style={{marginTop:'50px',width:'49%',height:'50%'}}>
+        <div style={{marginTop:'50px',width:'49%',height:'48%'}}>
         <CalenderWidget/>
 
         </div>
