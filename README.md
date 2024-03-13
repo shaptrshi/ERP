@@ -1,7 +1,5 @@
 # ERP
 
-# ERP
-
 Its and Enterprise resource planning website for product , shipping and customer management based on "REACTJS + Vite"
 
 Technologies used : HTML,CSS,JAVASCRIPT,VITE+REACTJS, REACT ROUTER.
@@ -53,5 +51,4 @@ Icons taken from awesomefonts.
 The website has been hosted using VERCEL and its url is given below:
 
 " https://erp-ashy-eight.vercel.app/ "
-
 
