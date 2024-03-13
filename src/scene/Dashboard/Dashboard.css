@@ -1,0 +1,27 @@
+
+.input-search {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    background: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+  
+  .card-green {
+    background: #28a745;
+  }
+  
