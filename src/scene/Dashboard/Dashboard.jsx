@@ -37,6 +37,9 @@ const Dashboard=()=>{
     if (products.length===0 || products===null){
       setProducts(data)
       localStorage.setItem('products',JSON.stringify(data))
+      setTimeout(()=>{
+        window.location.reload()
+      },2000)
     }
 
   },[products]);
