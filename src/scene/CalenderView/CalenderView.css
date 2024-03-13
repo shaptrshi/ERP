@@ -1,0 +1,22 @@
+.calender {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .calender {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
