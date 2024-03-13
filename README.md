@@ -1,6 +1,6 @@
 # ERP
 
-Its and Enterprise resource planning website for product , shipping and customer management based on "REACTJS + Vite"
+Its a Enterprise resource planning website for product , shipping and customer management based on "REACTJS + Vite"
 
 Technologies used : HTML,CSS,JAVASCRIPT,VITE+REACTJS, REACT ROUTER.
 
