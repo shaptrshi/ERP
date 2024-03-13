@@ -6,14 +6,17 @@ Technologies used : HTML,CSS,JAVASCRIPT,VITE+REACTJS, REACT ROUTER.
 
 "VITE + REACT" -> This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-TO start the website 
+Pre Requisite -> Node Js should be installed on the device
+
+TO start the website follow these steps
 
 1) WE go to erp folder in VS Code
 2) Open a terminal
-3) Enter the command : 'npm run dev'
-4) Click the url generated and it will take you to the website.
-5) To terminate the website we enter "ctrl+ c" on terminal is vs code 
-6) Then type "y" and press enter
+3) Enter the command : npm i vite
+4) Enter the command : 'npm run dev'
+5) Click the url generated and it will take you to the website.
+6) To terminate the website we enter "ctrl+ c" on terminal is vs code 
+7) Then type "y" and press enter
 
 The website opens to a homepage(Dashboard)
 Its consist of three other pages which are (Product Management, Order Management, Orders Calander View)
@@ -50,5 +53,5 @@ Icons taken from awesomefonts.
 
 The website has been hosted using VERCEL and its url is given below:
 
-" https://erp-ashy-eight.vercel.app/ "
+click on the link -> " https://erp-ashy-eight.vercel.app/ "
 
