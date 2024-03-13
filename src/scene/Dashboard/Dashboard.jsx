@@ -22,24 +22,29 @@ const Dashboard=()=>{
   useEffect(()=>{
     if (!localStorage.getItem('products') ){
       localStorage.setItem('products',JSON.stringify(data))
+      setTimeout(()=>{
+        window.location.reload()
+      },2000)
     }
     if (!localStorage.getItem('orders') ){
       localStorage.setItem('orders',JSON.stringify(orders))
+      setTimeout(()=>{
+        window.location.reload()
+      },2000)
     }
   },[]);
   useEffect(()=>{
     if (totalOrders.length===0 || totalOrders===null){
       setTotalOrders(orders)
       localStorage.setItem('orders',JSON.stringify(orders))
+      
     }
   },[totalOrders]);
   useEffect(()=>{
     if (products.length===0 || products===null){
       setProducts(data)
       localStorage.setItem('products',JSON.stringify(data))
-      setTimeout(()=>{
-        window.location.reload()
-      },2000)
+      
     }
 
   },[products]);
