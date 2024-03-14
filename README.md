@@ -24,14 +24,14 @@ Each of these pages can be accessed by clicking on the name in hamburger icon on
 
 # Sidebar
 
-![sidebar](screenshot/sidebar.png)
+![side bar](screenshot/sidebaR.png)
 
 There Is a "hamburger icon" present on the "top left corner" on "all the pages" for navigation between the pages.
 
 
 # Dashboard
 
-![dashboard](screenshot/dashboard.png)
+![dash board](screenshot/dashboarD.png)
 
 	the dashboard is also the homepage.
 	the dashboard consist of widgets which give the summarized view to the erp.
