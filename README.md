@@ -33,9 +33,8 @@ Page 2) Product Management->
 	the product management page consist of data of the product in the stock ,thier price and catagory
 	we can edit the prodcut information by clicking on "edit" button which will send you to edit page where we can edit 
 	product details.
-	We can delete a product to bu clicking on the "delete" button.
-	There is a button with "+" icon to add new product, on clicking the button it takes you to new page where we can add details
-	to add new products.
+	We can delete a product by clicking on the "delete" button.
+	There is a button with "+" icon at the bottom right to add new product, on clicking the button it takes you to new page where we can add details to add new products.
 	The page on the top has search bar,to search the products on that page.
 
 Page 3) Order Management->
@@ -49,11 +48,11 @@ Page 4) Orders Calander View->
 
 
 This erp website has a very simple design which can be easily navigated, and has a basic functionality to manage products , thier customers and order delivery status and there quantity, products can be added, deleted and edited.
-The website is also responsive(for multiple type of screen view) and very easy to navigate.
+The website is also responsive and very easy to navigate.
 
 Icons taken from awesomefonts.
 
 The website has been hosted using VERCEL and its url is given below:
 
-click on the link -> " "
+click on the link -> "https://erp-jade-six.vercel.app/"
 
