@@ -22,6 +22,7 @@ const OrderPage = () => {
         style={{
           gap: "20px",
           fontFamily: "Arial, sans-serif",
+          justifyContent: "center"
         }}
       >
         <div className="order">
