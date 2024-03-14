@@ -12,7 +12,7 @@ TO start the website follow these steps
 
 1) WE go to erp folder in VS Code
 2) Open a terminal
-3) Enter the command : 'npm i vite'
+3) Enter the command : 'npm i'
 4) Enter the command : 'npm run dev'
 5) Click the url generated and it will take you to the website.
 6) To terminate the website we enter "ctrl+ c" on terminal in vs code 
