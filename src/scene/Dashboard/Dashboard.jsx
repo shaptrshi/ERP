@@ -47,19 +47,12 @@ const Dashboard = () => {
   }, [products]);
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          gap: "20px",
-          fontFamily: "Arial, sans-serif",
-        }}
-      >
-        <Sidebar />
-        <div style={{ flex: 2, marginTop: "10px" }}>
-          <h2 style={{ textAlign: "center" }}>Dashboard</h2>
-          <div style={{ display: "flex", gap: "20px" }}>
+    <Sidebar />
+      <div className="dashboard">
+          <h2 className="title">Dashboard</h2>
+          <div className="cards">
             <div 
-              className="card"
+              className="card card-blue"
               onClick={() => {
                 navigate("/products");
               }}
@@ -97,7 +90,6 @@ const Dashboard = () => {
                 style={{ marginLeft: "5px" }}
               />
             </div>
-        </div>
       </div>
     </>
   );

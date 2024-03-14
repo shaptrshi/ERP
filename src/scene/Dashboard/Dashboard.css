@@ -1,70 +1,66 @@
 .dashboard {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
   padding: 20px;
-}
-.input-search {
-  border: none;
-  outline: none;
-  font-size: 16px;
-  padding: 8px;
-  margin-bottom: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f8f9fa;
 }
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
 
 .card {
-  background: #007bff;
-  color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  width: calc(50% - 30px);
-  box-sizing: border-box;
-}
-
-.card-green {
-  background: #28a745;
-}
-
-.card-purple {
-  background: purple;
-  margin-top: 15px;
-
-
-}
-
-.calender {
-  display: flex;
-  margin: 0 auto;
   width: 50%;
-  text-align: center;
   padding: 20px;
-  margin-top: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 1);
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.05);
+
+}
+
+.card.card-blue {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card.card-green {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.card.card-purple {
+  background-color: purple;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
-  .card {
-    width: calc(50% - 30px);
-    margin-bottom: 20px;
-  }
-  .calender {
-    width: 100%;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 14px;
-    line-height: 1.5;
-  }
-
-  .dashboard {
+  .cards {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    padding: 10px;
   }
 }
