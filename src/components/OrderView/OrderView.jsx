@@ -1,7 +1,7 @@
 const OrderView = ({ orders }) => {
   return (
     <div>
-      <h1>Orders</h1>
+      <h1 style={{textAlign:"center"}}>Orders</h1>
       <p>Total Orders: {orders != null && orders.length}</p>
       <p>
         Pending Orders:

@@ -46,7 +46,6 @@ const ProductPage = () => {
       </button>
       <div
         style={{
-          display: "flex",
           gap: "20px",
           fontFamily: "Arial, sans-serif",
         }}

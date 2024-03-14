@@ -72,6 +72,40 @@ const orders=[
         }
       ],
       "status": "Shipped"
+    },
+    {
+      "order_id": 5,
+      "customer_name": "Wanda Maximoff",
+      "order_date": "2024-03-14",
+      "products": [
+        {
+          "id": 9,
+          "name": "GTA V Disk",
+          "quantity": 1,
+          "price": 14.39
+        },
+        {
+          "id": 10,
+          "name": "Adobe Lightroom",
+          "quantity": 1,
+          "price": 23.99
+        }
+      ],
+      "status": "Processing"
+    },
+    {
+      "order_id": 6,
+      "customer_name": "Tony Stark",
+      "order_date": "2024-03-14",
+      "products": [
+        {
+          "id": 12,
+          "name": "Mechanical Keyboard",
+          "quantity": 2,
+          "price": 16.379
+        }
+      ],
+      "status": "Shipped"
     }
   ]
   export default orders;

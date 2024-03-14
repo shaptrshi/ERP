@@ -34,6 +34,13 @@
   background: #28a745;
 }
 
+.card-purple {
+  background: purple;
+  margin-top: 15px;
+
+
+}
+
 .calender {
   display: flex;
   margin: 0 auto;
@@ -54,5 +61,10 @@
     padding: 10px;
     font-size: 14px;
     line-height: 1.5;
+  }
+
+  .dashboard {
+    display: flex;
+    flex-direction: column;
   }
 }

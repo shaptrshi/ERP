@@ -18,6 +18,7 @@ const AddProduct = () => {
     e.preventDefault();
     const newProducts = [...products, { ...newUser, id: v4() }];
     setProducts(newProducts);
+    alert("New Product Added");
   };
   useEffect(() => {
     localStorage.setItem("products", JSON.stringify(products));

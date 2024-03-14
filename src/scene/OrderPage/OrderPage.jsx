@@ -20,10 +20,8 @@ const OrderPage = () => {
       <Sidebar />
       <div
         style={{
-          display: "flex",
           gap: "20px",
           fontFamily: "Arial, sans-serif",
-          justifyContent: "center",
         }}
       >
         <div className="order">

@@ -55,17 +55,17 @@ const Dashboard = () => {
         }}
       >
         <Sidebar />
-        <div style={{ flex: 1, marginTop: "10px" }}>
+        <div style={{ flex: 2, marginTop: "10px" }}>
           <h2 style={{ textAlign: "center" }}>Dashboard</h2>
           <div style={{ display: "flex", gap: "20px" }}>
-            <div
+            <div 
               className="card"
               onClick={() => {
                 navigate("/products");
               }}
             >
               <ProductView products={products} />
-              View Products
+              <h3>View Products</h3>
               <FontAwesomeIcon
                 icon={faArrowRight}
                 style={{ marginLeft: "5px" }}
@@ -78,7 +78,7 @@ const Dashboard = () => {
               }}
             >
               <OrderView orders={totalOrders} />
-              View Orders
+              <h3>View Orders</h3>
               <FontAwesomeIcon
                 icon={faArrowRight}
                 style={{ marginLeft: "5px" }}
@@ -86,15 +86,17 @@ const Dashboard = () => {
             </div>
           </div>
           <div
-            style={{
-              marginTop: "50px",
-              width: "55%",
-              height: "55%",
-              marginLeft: "25%",
-            }}
-          >
-            <CalenderWidget />
-          </div>
+              className="card card-purple"
+              onClick={() => {
+                navigate("/orders-calendar");
+              }}
+            >
+              <h2>View Calander</h2>
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                style={{ marginLeft: "5px" }}
+              />
+            </div>
         </div>
       </div>
     </>
