@@ -22,7 +22,10 @@ The website opens to a homepage(Dashboard)
 Its consist of three other pages which are (Product Management, Order Management, Orders Calander View)
 Each of these pages can be accessed by clicking on the name in hamburger icon on the top left as well as the widgets present on the dashboard.
 
+# Sidebar
+![alt text](screenshot/Sidebar.png)
 There Is a "hamburger icon" present on the "top left corner" on "all the pages" for navigation between the pages.
+
 
 Page 1) Dashboard-> 
 	the dashboard is also the homepage.
