@@ -2,8 +2,11 @@ import { useEffect, useState } from "react";
 import Sidebar from "../../components/SideBar/SideBar";
 import { v4 } from "uuid";
 import "./AddProduct.css";
+import {useNavigate} from "react-router-dom";
 
 const AddProduct = () => {
+  const navigate = useNavigate();
+  const [flag, setFlag] = useState(0);
   const [search, setSearch] = useState("");
   const [products, setProducts] = useState(() => {
     return JSON.parse(localStorage.getItem("products")) || [];
@@ -15,6 +18,7 @@ const AddProduct = () => {
     price: "",
   });
   const save = (e) => {
+    setFlag(1);
     e.preventDefault();
     const newProducts = [...products, { ...newUser, id: v4() }];
     setProducts(newProducts);
@@ -22,6 +26,9 @@ const AddProduct = () => {
   };
   useEffect(() => {
     localStorage.setItem("products", JSON.stringify(products));
+    if (flag===1) {
+      navigate("/products")
+    }
   }, [products]);
 
   return (

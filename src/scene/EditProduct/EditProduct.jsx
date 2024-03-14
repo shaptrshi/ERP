@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const EditProduct = () => {
+  const [flag, setFlag] = useState(0)
   const navigate = useNavigate();
   const location = useLocation();
   const id = location.state;
@@ -26,9 +27,13 @@ const EditProduct = () => {
     });
     setProducts(newProducts);
     alert("Product Updated Successfully");
+    setFlag(1)
   };
   useEffect(() => {
     localStorage.setItem("products", JSON.stringify(products));
+    if (flag===1) {
+      navigate("/products")
+    }
   }, [products]);
 
   return (
