@@ -1,6 +1,6 @@
 # ERP(Based On React)
 
-Its a Enterprise resource planning website for product , shipping and customer management based on "REACTJS + Vite"
+Its a Enterprise resource planning website for product, shipping and customer management based on "REACTJS + Vite".
 
 Technologies used : HTML,CSS,JAVASCRIPT,VITE+REACTJS, REACT ROUTER.
 
@@ -15,11 +15,11 @@ TO start the website follow these steps
 3) Enter the command : 'npm i vite'
 4) Enter the command : 'npm run dev'
 5) Click the url generated and it will take you to the website.
-6) To terminate the website we enter "ctrl+ c" on terminal is vs code 
+6) To terminate the website we enter "ctrl+ c" on terminal in vs code 
 7) Then type "y" and press enter
 
 The website opens to a homepage(Dashboard)
-Its consist of three other pages which are (Product Management, Order Management, Orders Calander View)
+Its consist of three other pages which are (Product Management, Order Management, Orders Calendar View)
 Each of these pages can be accessed by clicking on the name in hamburger icon on the top left as well as the widgets present on the dashboard.
 
 # Sidebar
@@ -49,10 +49,10 @@ There Is a "hamburger icon" present on the "top left corner" on "all the pages" 
 	the order management page consist of data of the order details,order status, and thier customer details.
 	it show the amount of order a customer made, quantity and price.
 	The page also has option to change order status(Shipped,Delivered,Processing,Dispached) on individual orders as well as to delete orders
-	The page on the top has search bar,to search the orders on that page.
+	The page on the top has search bar,to search the orders on that page by using order Id eg. 1,2,3,etc.
 
-# Orders Calander View
-![Orders Calander View](<screenshot/Orders Calander View.png>)
+# Orders Calendar View
+![Orders Calendar View](<screenshot/Orders Calander View.png>)
 	It has monthly calendar view which showcase when the order was placed and the order status.
 
 
