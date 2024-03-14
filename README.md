@@ -25,12 +25,14 @@ Each of these pages can be accessed by clicking on the name in hamburger icon on
 # Sidebar
 
 ![Sidebar](screenshot/Sidebar.png)
+
 There Is a "hamburger icon" present on the "top left corner" on "all the pages" for navigation between the pages.
 
 
 # Dashboard
 
 ![Dashboard](screenshot/Dashboard.png)
+
 	the dashboard is also the homepage.
 	the dashboard consist of widgets which give the summarized view to the erp.
 	these widgets as well as the icons on the hamburger icon on the top left can be used to access the other 3 pages
@@ -55,7 +57,8 @@ product add page
 
 # Order Management
 
-![Order Page](<screenshot/Orders Page.png>)
+![order page](<screenshot/order page.png>)
+
 	the order management page consist of data of the order details,order status, and thier customer details.
 	it show the amount of order a customer made, quantity and price.
 	The page also has option to change order status(Shipped,Delivered,Processing,Dispached) on individual orders as well as to delete orders
@@ -64,6 +67,7 @@ product add page
 # Orders Calendar View
 
 ![Orders Calendar View](<screenshot/Orders Calander View.png>)
+
 	It has monthly calendar view which showcase when the order was placed and the order status.
 
 

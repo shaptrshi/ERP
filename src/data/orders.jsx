@@ -49,6 +49,12 @@ const orders=[
           "name": "Mankind Glucometer",
           "quantity": 3,
           "price": 5.79
+        },
+        {
+          "id": 11,
+          "name": "Sony WH-1000XM3",
+          "quantity": 2,
+          "price": 11.49
         }
       ],
       "status": "Delivered"
@@ -103,6 +109,12 @@ const orders=[
           "name": "Mechanical Keyboard",
           "quantity": 2,
           "price": 16.379
+        },
+        {
+          "id": 15,
+          "name": "Slim Wallet",
+          "quantity": 2,
+          "price": 13.49
         }
       ],
       "status": "Shipped"
