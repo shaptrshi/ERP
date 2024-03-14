@@ -31,7 +31,7 @@ There Is a "hamburger icon" present on the "top left corner" on "all the pages" 
 
 # Dashboard
 
-![dashboard](screenshot/dashboard.png)
+![dashboard](<screenshot/dash board.png>)
 
 	the dashboard is also the homepage.
 	the dashboard consist of widgets which give the summarized view to the erp.
