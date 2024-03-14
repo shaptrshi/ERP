@@ -1,4 +1,4 @@
-# ERP
+# ERP(Based On React)
 
 Its a Enterprise resource planning website for product , shipping and customer management based on "REACTJS + Vite"
 
@@ -23,16 +23,20 @@ Its consist of three other pages which are (Product Management, Order Management
 Each of these pages can be accessed by clicking on the name in hamburger icon on the top left as well as the widgets present on the dashboard.
 
 # Sidebar
-![alt text](screenshot/Sidebar.png)
+![Sidebar](screenshot/Sidebar.png)
 There Is a "hamburger icon" present on the "top left corner" on "all the pages" for navigation between the pages.
 
 
-Page 1) Dashboard-> 
+# Dashboard
+![Dashboard](screenshot/Dashboard.png)
 	the dashboard is also the homepage.
 	the dashboard consist of widgets which give the summarized view to the erp.
 	these widgets as well as the icons on the hamburger icon on the top left can be used to access the other 3 pages
 
-Page 2) Product Management->
+# Product Management
+![Product Page](<screenshot/Product Page.png>)
+![Product Edit](<screenshot/Product Edit.png>)
+![Product Add](<screenshot/Product Page.png>)
 	the product management page consist of data of the product in the stock ,thier price and catagory
 	we can edit the prodcut information by clicking on "edit" button which will send you to edit page where we can edit 
 	product details.
@@ -40,13 +44,15 @@ Page 2) Product Management->
 	There is a button with "+" icon at the bottom right to add new product, on clicking the button it takes you to new page where we can add details to add new products.
 	The page on the top has search bar,to search the products on that page.
 
-Page 3) Order Management->
+# Order Management
+![Order Page](<screenshot/Orders Page.png>)
 	the order management page consist of data of the order details,order status, and thier customer details.
 	it show the amount of order a customer made, quantity and price.
 	The page also has option to change order status(Shipped,Delivered,Processing,Dispached) on individual orders as well as to delete orders
 	The page on the top has search bar,to search the orders on that page.
 
-Page 4) Orders Calander View->
+# Orders Calander View
+![Orders Calander View](<screenshot/Orders Calander View.png>)
 	It has monthly calendar view which showcase when the order was placed and the order status.
 
 
@@ -57,5 +63,5 @@ Icons taken from awesomefonts.
 
 The website has been hosted using VERCEL and its url is given below:
 
-click on the link -> "https://erp-jade-six.vercel.app/"
+# click on the link -> "https://erp-jade-six.vercel.app/"
 
