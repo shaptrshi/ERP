@@ -84,7 +84,7 @@ const Dashboard = () => {
                 navigate("/orders-calendar");
               }}
             >
-              <h2>View Calander</h2>
+              <h2>View Calendar</h2>
               <FontAwesomeIcon
                 icon={faArrowRight}
                 style={{ marginLeft: "5px" }}
