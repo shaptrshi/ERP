@@ -40,6 +40,7 @@ product page
 product edit page
 ![Product Add](<screenshot/Product Page.png>)
 product add page
+
 	the product management page consist of data of the product in the stock ,thier price and catagory
 	we can edit the prodcut information by clicking on "edit" button which will send you to edit page where we can edit 
 	product details.
