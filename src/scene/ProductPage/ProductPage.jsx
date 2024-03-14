@@ -27,7 +27,6 @@ const ProductPage = () => {
   useEffect(() => {
     localStorage.setItem("products", JSON.stringify(products));
   }, [products]);
-  e.preventDefault()
   const currentProducts = products.filter((product) => {
     return (
       product &&
