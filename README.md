@@ -75,7 +75,7 @@ This erp website has a very simple design which can be easily navigated, and has
 The website is also responsive and very easy to navigate.
 
 # Icons taken from awesomefonts.
-# mock date created is used on product management page and order management page
+# mock date is used on product management page and order management page
 
 The website has been hosted using VERCEL and its url is given below:
 
