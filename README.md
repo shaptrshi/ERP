@@ -2,7 +2,7 @@
 
 Its a Enterprise resource planning website for product, shipping and customer management based on "REACTJS + Vite".
 
-Technologies used : HTML,CSS,JAVASCRIPT,VITE+REACTJS, REACT ROUTER.
+# Technologies used : HTML,CSS,JAVASCRIPT,VITE+REACTJS, REACT ROUTER.
 
 "VITE + REACT" -> This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -74,7 +74,8 @@ product add page
 This erp website has a very simple design which can be easily navigated, and has a basic functionality to manage products , thier customers and order delivery status and there quantity, products can be added, deleted and edited.
 The website is also responsive and very easy to navigate.
 
-Icons taken from awesomefonts.
+# Icons taken from awesomefonts.
+# mock date created is used on product management page and order management page
 
 The website has been hosted using VERCEL and its url is given below:
 
