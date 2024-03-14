@@ -24,14 +24,14 @@ Each of these pages can be accessed by clicking on the name in hamburger icon on
 
 # Sidebar
 
-![Sidebar](screenshot/Sidebar.png)
+![sidebar](screenshot/sidebar.png)
 
 There Is a "hamburger icon" present on the "top left corner" on "all the pages" for navigation between the pages.
 
 
 # Dashboard
 
-![Dashboard](screenshot/Dashboard.png)
+![dashboard](screenshot/dashboard.png)
 
 	the dashboard is also the homepage.
 	the dashboard consist of widgets which give the summarized view to the erp.
@@ -42,10 +42,10 @@ There Is a "hamburger icon" present on the "top left corner" on "all the pages" 
 ![Product Page](<screenshot/Product Page.png>)
 product page
 
-![Product Edit](<screenshot/Product Edit.png>)
+![edit page](<screenshot/edit page.png>)
 product edit page
 
-![Product Add](<screenshot/Product Page.png>)
+![add page](<screenshot/add page.png>)
 product add page
 
 	the product management page consist of data of the product in the stock ,thier price and catagory
