@@ -33,20 +33,13 @@ const EditProduct = () => {
 
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          gap: "20px",
-          fontFamily: "Arial, sans-serif",
-        }}
-      >
-        <Sidebar />
-
-        <div>
-          <div>
-            <h2>Edit Product</h2>
+      <Sidebar />
+      <div className="edit-product">
+        <div className="edit-product-form">
+          <div className="form-header">
+            <h2 className="form-title">Edit Product</h2>
           </div>
-          <h1>{editUser.name}</h1>
+          <h1 className="product-name">{editUser.name}</h1>
           <form className="product-form">
             <div className="form-group">
               <label htmlFor="productName">Product Name:</label>

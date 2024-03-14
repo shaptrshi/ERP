@@ -26,18 +26,11 @@ const AddProduct = () => {
 
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          gap: "20px",
-          fontFamily: "Arial, sans-serif",
-        }}
-      >
-        <Sidebar />
-
-        <div style={{ width: "150vh", height: "500px" }} className="product">
+    <Sidebar />
+      <div className="addProduct">
+        <div className="product-container">
           <div className="product-header">
-            <h2>Add New Product</h2>
+            <h2 className="product-title">Add New Product</h2>
           </div>
           <form className="product-form">
             <div className="form-group">

@@ -1,4 +1,4 @@
-.product {
+/* .product {
   margin: 0 auto;
   width: 50%;
   margin-top: 50px;
@@ -80,5 +80,112 @@ button:hover {
 
   .form-group {
     margin-bottom: 10px;
+  }
+}
+ */
+
+ .addProduct {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.product-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.product-header .product-title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 10px auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  padding: 2px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .addProduct {
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .product-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .product-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .product-header .product-title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
   }
 }
