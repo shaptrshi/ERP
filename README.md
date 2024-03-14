@@ -39,7 +39,7 @@ There Is a "hamburger icon" present on the "top left corner" on "all the pages" 
 
 # Product Management
 
-![Product Page](<screenshot/Product Page.png>)
+![product page](screenshot/productpage.png)
 product page
 
 ![edit page](<screenshot/edit page.png>)
